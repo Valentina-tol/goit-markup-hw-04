@@ -4,6 +4,7 @@
   --navy-blue: #2e2f42;
   --cloud: #f4f4fd;
   --white: #ffffff;
+  --cornflower: #e7e9fc;
 }
 
 /* Base / Global*/
@@ -271,11 +272,15 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+
   height: 112px;
   width: 264px;
   margin-bottom: 8px;
+
+  border: 1px solid #8e8f99;
   background-color: var(--cloud);
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .feature-icon {
