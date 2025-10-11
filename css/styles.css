@@ -400,7 +400,7 @@ img {
 .portfolio-card-body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none; /* рамка только вокруг нижней части */
+  border-top: none;
 }
 
 .portfolio-title {
