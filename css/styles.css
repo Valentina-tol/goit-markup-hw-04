@@ -360,7 +360,7 @@ img {
 .team-socials {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 8px;
   margin-top: 16px;
 }
 
