@@ -440,8 +440,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-card:hover .portfolio-overlay-text 
-.portfolio-card:focus-within .portfolio-overlay-text{   
+.portfolio-card:hover .portfolio-overlay-text,
+.portfolio-card:focus-within .portfolio-overlay-text {
   transform: translateY(0%);
 }
 
