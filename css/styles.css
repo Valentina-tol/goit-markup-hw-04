@@ -3,7 +3,7 @@
   --iris: #4d5ae5;
   --navy-blue: #2e2f42;
   --cloud: #f4f4fd;
-  --white: #ffffff;
+  --white:#ffffff;
   --slate: #434455;
   --cornflower: #e7e9fc;
 }
@@ -522,7 +522,7 @@ img {
 .footer-socials-title {
   font-weight: 500;
   font-size: 16px;
-  color: var(--cloud);
+  color: var(--white);
   margin-bottom: 16px;
 }
 
