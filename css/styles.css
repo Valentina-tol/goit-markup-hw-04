@@ -4,6 +4,7 @@
   --navy-blue: #2e2f42;
   --cloud: #f4f4fd;
   --white: #ffffff;
+  --slate: #434455;
   --cornflower: #e7e9fc;
 }
 
@@ -12,6 +13,8 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  color: var(--slate);
+  background-color: var(--white);
   margin: 0;
 }
 /* Reset start*/
@@ -30,6 +33,13 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 a {
