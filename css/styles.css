@@ -372,6 +372,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
   color: #434455;
 }
 
@@ -379,7 +380,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 16px;
+  
 }
 
 .team-socials-link {
@@ -445,7 +446,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
   align-items: center;
 
   transform: translateY(100%);
@@ -481,8 +481,6 @@ img {
 
 /* #region Footer */
 .page-footer {
-  max-width: 1440px;
-  margin: 0 auto;
   background-color: #2e2f42;
   color: #f4f4fd;
   padding: 100px 0;
@@ -511,12 +509,6 @@ img {
   color:  #f4f4fd;
   white-space: normal;
   overflow-wrap: break-word;
-}
-
-.footer-socials {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
 .footer-socials-title {
