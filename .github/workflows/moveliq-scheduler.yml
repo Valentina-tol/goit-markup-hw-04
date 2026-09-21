@@ -1,0 +1,15 @@
+name: MOVELIQ scheduler
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  run-moveliq-scheduler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish due MOVELIQ posts
+        run: |
+          curl --fail --silent --show-error --retry 2 \
+            "https://postonce.floot.app/_api/moveliq-cron-7c91"
